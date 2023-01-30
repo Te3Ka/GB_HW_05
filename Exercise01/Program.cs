@@ -57,7 +57,7 @@ int EvenNumbers(int[] evenArray)
 }
 
 Console.WriteLine("Программа генерирует заданный массив случайных положительных трёхзначных чисел.");
-Console.WriteLine("После программа считает количество чётных чисел в этом массиве");
+Console.WriteLine("После программа считает количество чётных чисел в этом массиве.");
 Console.Write("Введите количество элементов массива: ");
 int.TryParse(Console.ReadLine(), out int num);
 while (num <= 0)

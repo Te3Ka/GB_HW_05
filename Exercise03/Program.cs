@@ -63,7 +63,7 @@ void DifferenceMaxMinArray(int[] differenceArray)
 }
 
 Console.WriteLine("Программа генерирует заданный массив случайных чисел от 1 до 99.");
-Console.WriteLine("После программа считает сумму элементов, стоящих на нечётных позициях.");
+Console.WriteLine("После программа считает разницу между максимальным и минимальным значениями массива.");
 Console.Write("Введите количество элементов массива: ");
 int.TryParse(Console.ReadLine(), out int num);
 while (num <= 0)
