@@ -45,6 +45,16 @@ void PrintArray(int[] arrayPrint)
     }
 }
 
+int SumOddArrayElements(int[] sumArray)
+{
+    int sum = 0;
+    for (int i = 1; i < sumArray.Length; i += 2)
+    {
+        sum += sumArray[i];
+    }
+    return sum;
+}
+
 Console.WriteLine("Программа генерирует заданный массив случайных чисел от -99 до 99.");
 Console.WriteLine("После программа считает сумму элементов, стоящих на нечётных позициях.");
 Console.Write("Введите количество элементов массива: ");
@@ -57,3 +67,6 @@ while (num <= 0)
 }
 int[] randomArray = CreateRandomeArray(num);
 PrintArray(randomArray);
+Console.WriteLine($"Сумма нечётных элементов массива = {SumOddArrayElements(randomArray)}");
+
+Author();
