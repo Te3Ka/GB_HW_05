@@ -45,6 +45,7 @@ void PrintArray(int[] arrayPrint)
     }
 }
 
+//Поиск разницы между макисмальным и минимальным элементами
 void DifferenceMaxMinArray(int[] differenceArray)
 {
     int min = differenceArray[0];
