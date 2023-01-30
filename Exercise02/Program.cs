@@ -45,6 +45,7 @@ void PrintArray(int[] arrayPrint)
     }
 }
 
+//Сумма значений элементов на нечётных позицях
 int SumOddArrayElements(int[] sumArray)
 {
     int sum = 0;
